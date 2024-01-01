@@ -20,3 +20,11 @@ def print_http_status(http_status: int) -> None:
 
 
 print_http_status(200)
+
+
+# Unpacking a function using positional argument.
+# This method is very useful while printing your data in a raw format (without any comma and brackets ). Many of the programmer try to remove comma and bracket by using a convolution of functions, Hence this simple prefix asterisk can solve your problem in unpacking them.
+
+list_numbers = [1, 2, 3, 4, 5]
+print(list_numbers)  # list_numbers: [1, 2, 3, 4, 5]
+print(*list_numbers)  # *list_numbers: 1 2 3 4 5
