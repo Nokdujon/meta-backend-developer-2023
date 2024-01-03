@@ -1,4 +1,4 @@
-def read_file(file_name):
+def read_file(file_name: str) -> str:
     """Reads in a file.
 
     [IMPLEMENT ME]
@@ -14,7 +14,7 @@ def read_file(file_name):
         string: contents of the given file.
     """
     ### WRITE SOLUTION HERE
-    file_content = None
+    file_content: str = None
     try:
         with open(file_name, mode="r", encoding="utf-8") as file:
             file_content = file.read()
@@ -28,7 +28,7 @@ def read_file(file_name):
     # raise NotImplementedError()
 
 
-def read_file_into_list(file_name):
+def read_file_into_list(file_name: str) -> list:
     """Reads in a file and stores each line as an element in a list
 
     [IMPLEMENT ME]
@@ -45,10 +45,10 @@ def read_file_into_list(file_name):
     ### WRITE SOLUTION HERE
     try:
         with open(file_name, mode="r", encoding="utf-8") as file:
-            lines = []
+            lines: list = []
 
             while True:
-                line = file.readline()
+                line: str = file.readline()
 
                 if not line:
                     break
@@ -63,7 +63,7 @@ def read_file_into_list(file_name):
     # raise NotImplementedError()
 
 
-def write_first_line_to_file(file_contents, output_filename):
+def write_first_line_to_file(file_contents: str, output_filename: str) -> None:
     """Writes the first line of a string to a file.
 
     [IMPLEMENT ME]
@@ -92,7 +92,7 @@ def write_first_line_to_file(file_contents, output_filename):
     # raise NotImplementedError()
 
 
-def read_even_numbered_lines(file_name):
+def read_even_numbered_lines(file_name: str) -> list:
     """Reads in the even numbered lines of a file
 
     [IMPLEMENT ME]
@@ -110,11 +110,11 @@ def read_even_numbered_lines(file_name):
 
     try:
         with open(file_name, mode="r", encoding="utf-8") as file:
-            even_numbered_lines = []
-            count = 1
+            even_numbered_lines: list = []
+            count: int = 1
 
             while True:
-                line = file.readline()
+                line: str = file.readline()
 
                 if not line:
                     break
@@ -132,7 +132,7 @@ def read_even_numbered_lines(file_name):
     # raise NotImplementedError()
 
 
-def read_file_in_reverse(file_name):
+def read_file_in_reverse(file_name: str) -> list:
     """Reads a file and returns a list of the lines in reverse order
 
     [IMPLEMENT ME]
@@ -150,10 +150,10 @@ def read_file_in_reverse(file_name):
     ### WRITE SOLUTION HERE
     try:
         with open(file_name, mode="r", encoding="utf-8") as file:
-            reversed_lines = []
+            reversed_lines: list = []
 
             while True:
-                line = file.readline()
+                line: str = file.readline()
 
                 if not line:
                     break
