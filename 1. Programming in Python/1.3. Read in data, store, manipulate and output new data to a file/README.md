@@ -65,38 +65,3 @@ You'll store the contents of a file into a list so that it can be accessed in di
 6.  Fill in the `read_file_in_reverse()` function to return a list of the lines of a file in reverse order.
 
 <br>
-
-## Final Step: Let's submit your code!
-
-Nice work! To complete this assessment:
-
--   Save your file through File -> Save
--   Select "Submit Assignment" in your Lab toolbar.
-
-Your code will be autograded and return feedback shortly on the "Grades" tab.  
-You can also see your score in your Programming Assignment "My Submission" tab.
-<br> <br>
-
-## Feedback
-
-Nice work! To complete this assessment:
-
-## 1. Function read_file
-
-All test cases passed.
-
-## 2. Function read_file_into_list
-
-All test cases passed.
-
-## 3. Function write_first_line_to_file
-
-Function write_first_line_to_file is not implemented
-
-## 4. Function read_even_numbered_lines
-
-All test cases passed.
-
-## 5. Function read_file_in_reverse
-
-All test cases passed.
