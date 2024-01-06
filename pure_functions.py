@@ -1,4 +1,4 @@
-"""New Features in Python"""
+"""Pure functions"""
 
 
 def pure_function() -> None:
