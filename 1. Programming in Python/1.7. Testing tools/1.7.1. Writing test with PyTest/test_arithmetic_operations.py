@@ -1,5 +1,4 @@
-"""_arithmetic operations_
-"""
+"""_test code for arithmetic operations_"""
 
 import arithmetic_operations
 
